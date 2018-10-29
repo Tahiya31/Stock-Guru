@@ -1,4 +1,7 @@
-# Stock-Guru
-A stock prediction web application
+# stock_prediction_web_app
 
-StockGuru is a web-based application to provide real-time investment recommendations. Predict future stock price by analyzing real-time market updates fetched from market and used machine learning algorithms to get prediction. The results were presented in a web application where the GUI provided each investor personalized recommendations (buy, hold, sell) in a comprehensible manner.
+This is a web application which predicts stock values  and also recommends whether to buy/sell/hold a stock
+The application: 
+- is streaming stock data per minute, and it also uses historical stock data.
+- the application is using a neural network (RNN) to predict the stock value.
+- the application is using metrics to make recommendations. 
